@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/search_area_style">
+
+        <EditText
+            android:id="@+id/search_box"
+            style="@style/search_box_style"/>
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/search_button_style" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/list_area_style">
+
+        <ListView
+            android:id="@+id/list"
+            style="@style/listView" />
+
+        <!-- Empty view is only visible when the app is first launched. -->
+        <TextView
+            android:id="@+id/launch_view"
+            style="@style/initialView"
+            tools:text="@string/how_to_search"/>
+
+        <!-- Empty view is only visible when the list has no items. -->
+        <TextView
+            android:id="@+id/empty_view"
+            style="@style/emptyView"
+            tools:text="@string/no_books"/>
+
+        <!-- Loading indicator is only shown before the load -->
+        <ProgressBar
+            android:id="@+id/loading_indicator"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

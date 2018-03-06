@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Booquet</string>
+
+    <!-- Text used as a hint in the search box. -->
+    <string name="search_hint">Search your book</string>
+
+    <!-- Search button text. -->
+    <string name="search_button_text">Search</string>
+
+    <!-- Text to display in the list before the user starts searching -->
+    <string name="how_to_search">Type your book or author name in the search box and press the SEARCH button.</string>
+
+    <!-- Text to display in the list when there are no books found -->
+    <string name="no_books">No books found.</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Test placeholder text for the title. -->
+    <string name="title_test_placeholder">The Ultimate Harry Potter and Philosophy</string>
+
+    <!-- Test placeholder text for the subtitle. -->
+    <string name="subtitle_test_placeholder">Hogwarts for Muggles</string>
+
+    <!-- Test placeholder text for the average rating. -->
+    <string name="average_rating_test_placeholder">4.0</string>
+
+    <!-- Test placeholder text for the authors. -->
+    <string name="authors_test_placeholder">William Irwin \nGregory Bassham</string>
+</resources>

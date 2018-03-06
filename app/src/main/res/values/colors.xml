@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE9700</color>
+    <color name="colorPrimaryDark">#F47B00</color>
+    <color name="colorAccent">#FEC006</color>
+    <!-- Background color for a list item -->
+    <color name="list_item_background">#f1f4dc</color>
+    <!-- Text color for the title -->
+    <color name="title_text_color">#202020</color>
+</resources>

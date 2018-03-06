@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">168dp</dimen>
+    <!-- Height of the text -->
+    <dimen name="text_height">16sp</dimen>
+    <!-- Height of the image -->
+    <dimen name="horizontal_padding">16dp</dimen>
+    <!-- Vertical padding -->
+    <dimen name="vertical_padding">16dp</dimen>
+    <!-- Search area padding -->
+    <dimen name="search_area_padding">12dp</dimen>
+    <!-- Drawable padding -->
+    <dimen name="drawable_padding">12dp</dimen>
+    <!-- Search box padding -->
+    <dimen name="search_box_padding">6dp</dimen>
+    <!-- Search box margin -->
+    <dimen name="search_box_margin">6dp</dimen>
+    <!-- Inter-rows margin -->
+    <dimen name="row_margin">3dp</dimen>
+    <!-- Launch text margin -->
+    <dimen name="launch_text_margin">46dp</dimen>
+    <!-- Divider thickness -->
+    <dimen name="divider_thickness">0dp</dimen>
+</resources>

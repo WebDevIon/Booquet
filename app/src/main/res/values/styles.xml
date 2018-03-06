@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- ListView style. -->
+    <style name="listView">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">@dimen/divider_thickness</item>
+    </style>
+
+    <!-- Initial View style. -->
+    <style name="initialView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/launch_text_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Empty View style. -->
+    <style name="emptyView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/launch_text_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Search box style. -->
+    <style name="search_box_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/bg_search</item>
+        <item name="android:drawableLeft">@android:drawable/ic_menu_search</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:hint">@string/search_hint</item>
+        <item name="android:padding">@dimen/search_box_padding</item>
+        <item name="android:layout_margin">@dimen/search_box_margin</item>
+    </style>
+
+    <!-- Search button style. -->
+    <style name="search_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:text">@string/search_button_text</item>
+    </style>
+
+    <!-- Search area style. -->
+    <style name="search_area_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/search_area_padding</item>
+    </style>
+
+    <!-- List area style. -->
+    <style name="list_area_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- List item style. -->
+    <style name="list_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/list_item_background</item>
+        <item name="android:minHeight">@dimen/list_item_height</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/horizontal_padding</item>
+    </style>
+
+    <!-- Book title style. -->
+    <style name="book_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">@dimen/text_height</item>
+    </style>
+
+    <!-- Book subtitle style. -->
+    <style name="book_subtitle_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/row_margin</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/text_height</item>
+    </style>
+
+    <!-- Book rating style. -->
+    <style name="book_rating_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/row_margin</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableLeft">@android:drawable/star_on</item>
+        <item name="android:textSize">@dimen/text_height</item>
+    </style>
+
+    <!-- Book authors style. -->
+    <style name="book_authors_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">@dimen/text_height</item>
+    </style>
+</resources>
